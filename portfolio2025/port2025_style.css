@@ -1,5 +1,21 @@
-/* {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+/* .hero-section{
+    border:1px solid red;
+}
+
+.hero-title-container{
+    border:1px solid white;
+}
+.hero-image-container{
+    border:1px solid purple;
 } */
+
+.projectsBtn{
+    /* background-color:#e70c10;  */
+}
+
+.contactMeBtn{
+   /* color: #e70c10; */
+   /* border-color: #e70c10; */
+}
+
+/* rosso  :#e70c10 */
