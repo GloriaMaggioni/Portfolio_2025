@@ -14,7 +14,7 @@ btn_2022.addEventListener('mouseout', () => {
 
 function goToOldPortfolio(){
     btn_2022.addEventListener('click', (url) =>{
-    window.open( './portfolio 2022/portfolio_2022.html', '_blank')
+    window.open( './portfolio2022/portfolio_2022.html', '_self')
     })
 
 }
@@ -32,7 +32,7 @@ btn_2025.addEventListener('mouseout', () => {
 
 function goToNewPortfolio(){
     btn_2025.addEventListener('click', (url) =>{
-    window.open( './portfolio 2025/portfolio_2025.html', '_blank')
+    window.open( './portfolio2025/portfolio_2025.html', '_self')
     })
 
 }
