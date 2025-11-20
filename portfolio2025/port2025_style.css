@@ -1,21 +1,12 @@
-/* .hero-section{
-    border:1px solid red;
-}
 
-.hero-title-container{
-    border:1px solid white;
+ h2{
+     font-family: "Sansation", sans-serif;
+ 
+  font-style: normal;
 }
-.hero-image-container{
-    border:1px solid purple;
-} */
-
-.projectsBtn{
-    /* background-color:#e70c10;  */
+a {
+    font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
-
-.contactMeBtn{
-   /* color: #e70c10; */
-   /* border-color: #e70c10; */
-}
-
-/* rosso  :#e70c10 */
