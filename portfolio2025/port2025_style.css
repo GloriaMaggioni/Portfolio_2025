@@ -10,3 +10,14 @@ a {
   font-weight: 500;
   font-style: normal;
 }
+
+.skill-logo {
+  border:1px solid red;
+  width:8%;
+  border-radius:50%;
+}
+.skill-logo img{
+  border-radius:50%;
+  background-position:center;
+  background-size:contain;
+}
