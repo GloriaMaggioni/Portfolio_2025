@@ -1,7 +1,6 @@
 
  h2{
      font-family: "Sansation", sans-serif;
- 
   font-style: normal;
 }
 a {
@@ -10,7 +9,7 @@ a {
   font-weight: 500;
   font-style: normal;
 }
-.skillsLogo-container{
+.skillsLogo-container , .projectsCards-container{
     padding:5% 4% 5% 4%;
 
  }
@@ -23,17 +22,9 @@ a {
     border-radius:50%;
 
  }
-/*.skill-logo {
-  border:1px solid red;
-  width:8%;
-  border-radius:50%;
+.projects a {
+   font-family: "Sansation", sans-serif ; !Important
+ 
+  font-style: normal;
 
-  margin-right:3%;
 }
-.skill-logo img{
-  height:100%;
-  border:1px solid blue;
-  border-radius:50%;
-  background-position:center;
-  background-size:cover;
-} */
