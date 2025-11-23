@@ -29,6 +29,27 @@ a, h5 {
 
 }
 
-input{
-  /* border:1px solid blue; */
+.fa-instagram{
+    color:#517fa4 ;
+}
+
+
+.fa-linkedin{
+    color: #007bb6;
+}
+
+
+.fa-github{
+    color:#171515;
+}
+.fa-github:hover{
+    color: #9c36b5;
+}
+
+.fa-instagram:hover{
+    color: #bc2a8d;
+}
+
+.fa-linkedin:hover{
+    color: #4dabf7;
 }
