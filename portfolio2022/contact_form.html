@@ -12,35 +12,8 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" type="image/jpn" href="./img/favicon.png">
     <title>Contact Page</title>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-       (function(){
-          emailjs.init("wn7YiUYIqd5qU0WBz");
-       })();
-    
-  $('#myForm').on('submit', function(event) {
-    event.preventDefault(); 
-    
-    var formData = new FormData(this);
-    formData.append('service_id', 'service_ovn1pzv');
-    formData.append('template_id', 'contact_form');
-    formData.append('user_id', 'Ywn7YiUYIqd5qU0WBz');
- 
-    $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
-        type: 'POST',
-        data: formData,
-        contentType: false, 
-        processData: false 
-    }).done(function() {
-        alert('Your mail is sent!');
-    }).fail(function(error) {
-        alert('Oops... ' + JSON.stringify(error));
-    });
-});
-
-    </script>
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+     <script src="/email.js"defer></script>
     
    
    
@@ -90,14 +63,14 @@
    <div class="col-md-6 phone-number">
     <i class="fas fa-phone-square"></i>3516542135
    </div>
-   <form class="row g-3  form-content " id="myform">
+   <form class="row g-3  form-content " id="form">
          <div class="col-md-6">
             <label for="firstName" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="fisrtName" placeholder="Nome"required>
+            <input type="text" class="form-control" id="name" placeholder="Nome"required>
           </div>
           <div class="col-md-6">
            <label for="lastName" class="form-label">Cognome</label>
-           <input type="text" class="form-control" id="lastName" placeholder="Cognome"required>
+           <input type="text" class="form-control" id="surname" placeholder="Cognome"required>
           </div>
           <div class="col-md-6">
             <label for="cellNumber" class="form-label">Cellulare</label>
@@ -105,11 +78,11 @@
           </div>
           <div class="col-md-6">
             <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="Email" placeholder="Email"required>
+            <input type="email" class="form-control" id="email" placeholder="Email"required>
           </div>
           <div class="col-md-12">
             <label for="Message" class="form-label">Messaggio</label>
-            <textarea class="form-control" id="Message" cols="30" rows="10" placeholder="Scrivi qui il tuo messaggio" required></textarea>
+            <textarea class="form-control" id="message" cols="30" rows="10" placeholder="Scrivi qui il tuo messaggio" required></textarea>
          </div>
          <div class="col-6">
            <button  type="submit" class="btn btn-primary form-button" id="sendButton" onclick="sendMail()" value="Send">Invia</button>

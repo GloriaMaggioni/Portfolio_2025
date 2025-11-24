@@ -1,14 +1,16 @@
-const btn_2022 = document.getElementById('btn_2022');
-const btn_2025 = document.getElementById('btn_2025');
+
+
+const btn22 = document.querySelector('.btn2022');
+const btn25 = document.querySelector('.btn2025');
 const portfolio_2022 = document.querySelector('.portfolio_22');
 const portfolio_2025 = document.querySelector('.portfolio_25');
 
 // PORTFOLIO 2022
-btn_2022.addEventListener('mouseover', () => {
+btn22.addEventListener('mouseover', () => {
     portfolio_2022.classList.remove('hidden');
 })
 
-btn_2022.addEventListener('mouseout', () => {
+btn22.addEventListener('mouseout', () => {
     portfolio_2022.classList.add('hidden');
 })
 
@@ -21,11 +23,11 @@ function goToOldPortfolio(){
 
 //PORTFOLIO 2025
 
-btn_2025.addEventListener('mouseover', () => {
+btn25.addEventListener('mouseover', () => {
     portfolio_2025.classList.remove('hidden');
 })
 
-btn_2025.addEventListener('mouseout', () => {
+btn25.addEventListener('mouseout', () => {
     portfolio_2025.classList.add('hidden');
 })
 

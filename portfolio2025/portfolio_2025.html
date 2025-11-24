@@ -12,6 +12,13 @@
       <link rel="stylesheet" href="port2025_style.css">
     <link rel="shortcut icon" type="image/jpn" href="/images/logo.png"> 
     <title>Gloria Maggioni</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+<script src="/main.js" defer></script>
+<script src="/email.js"defer>
+ 
+
+
+</script>
 </head>
 <body>
  <!-- NAVBAR -->
@@ -259,22 +266,25 @@
     </div>
     <div class="contact-form-container w-1/2 mt-6 ">
        
-      <form action="" class="w-[55%] max-w-md mx-auto m-4 p-4 border border-solid border-gray-300 rounded-md bg-white">
+      <form id="form" action="" class="  w-[55%] max-w-md mx-auto m-4 p-4 border border-solid border-gray-300 rounded-md bg-white">
         <div class="fullName flex flex-col justify-between md:flex-row items-center group mt-5 gap-5">
           <span class="w-full">
-            <input type="text" placeholder="Name" class=" w-full  border-0 border-b-2 border-gray-300" required>
+            <input  id="name" name="name" placeholder="Name*" class=" w-full  border-0 border-b-2 border-gray-300" required>
           </span>
           <span class="w-full">
-            <input type="text" placeholder="Surname" class=" w-full  border-0 border-b-2 border-gray-300" required>
+            <input  id="surname" name="surname" placeholder="Surname*" class=" w-full  border-0 border-b-2 border-gray-300" required>
           </span> 
         </div>
         <div class="email mt-9 mb-5">
-          <input type="email" placeholder="Email" class="w-full  border-0 border-b-2 border-gray-300" required>
+          <input id="email" type="email"  name="email" placeholder="Email*" class="w-full  border-0 border-b-2 border-gray-300" required>
+        </div>
+         <div class="cellNumber mt-9 mb-5">
+          <input id="cellNumber" type="text"  name="cellNumber" placeholder="Cel Number (ex. (+39) 3516582125)" class="w-full  border-0 border-b-2 border-gray-300" required>
         </div>
         <div class="message h-40 mt-9  ">
-          <textarea name="" id=""  placeholder="Write your message" class="w-full h-full   pl-2 border border-gray-300 rounded-md"></textarea>
+          <textarea  id="message" name="message"  placeholder="Write your message" class="w-full h-full   pl-2 border border-gray-300 rounded-md"></textarea>
         </div>
-        <button type="submit" class="px-3 py-2 mt-8 text-base font-medium text-center text-white rounded-lg bg-red-600 border border-red-600 hover:bg-red-200 hover:text-black hover:cursor-pointer">Send</button>
+        <button type="submit"  id="formBtn" name="formBtn"  class="px-3 py-2 mt-8 text-base font-medium text-center text-white rounded-lg bg-red-600 border border-red-600 hover:bg-red-200 hover:text-black hover:cursor-pointer">Send</button>
       </form>
     </div>
     </div>
@@ -320,6 +330,6 @@
 
 
 
-<script src="/main.js"></script>
+
 </body>
 </html>
