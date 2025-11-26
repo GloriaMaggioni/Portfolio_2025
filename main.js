@@ -2,8 +2,6 @@
 
 const btn22 = document.getElementById('btn_2022');
 const btn25 = document.getElementById('btn_2025');
- const portfolio_2022 = document.querySelector('.portfolio_22');
- const portfolio_2025 = document.querySelector('.portfolio_25');
 
 const preview22 = document.getElementById("preview22");
  const preview25 = document.getElementById("preview25");
