@@ -8,18 +8,16 @@
     <script src="https://kit.fontawesome.com/e4a313fa94.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <link rel="stylesheet" href="port2025_style.css">
-    <link rel="shortcut icon" type="image/jpn" href="/images/logo.png"> 
-    <title>Gloria Maggioni</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
-<script src="/main.js" defer></script>
-<script src="/email.js"defer>
- 
-
-
-</script>
+    <script src="/main.js" defer></script>
+    <script src="/email.js"defer></script>
+    <link rel="stylesheet" href="port2025_style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <title>Gloria Maggioni</title>
+   
 </head>
+
 <body>
  <!-- NAVBAR -->
 
@@ -40,7 +38,7 @@
           </svg>
         </button> 
       </div>
-      <!-- INIZIO NAVBAR ITEMS CATORIES + LOGO CONTAINER -->
+      <!-- INIZIO NAVBAR ITEMS CATEGORIES + LOGO CONTAINER -->
       <div class="flex flex-1 items-center justify-around ">
         <div class="flex shrink-0 items-center">
             <a href="/portfolio2025/portfolio_2025.html"><img src="/images/logo.png" alt="My logo: glok" class="h-8 w-auto" /></a>
@@ -48,10 +46,10 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <a href="#" aria-current="page" class="rounded-md  px-3 py-2 text-sm font-medium text-red-400 hover:bg-red-200 hover:text-gray-700">Home</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">About</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Skills</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Projects</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Contact</a>
+            <a href="#aboutMe" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">About</a>
+            <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Skills</a>
+            <a href="#projects" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Projects</a>
+            <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Contact</a>
           </div>
         </div>
       </div>     
@@ -61,10 +59,10 @@
   <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
     <div class="space-y-1 px-2 pt-2 pb-3">
        <a href="#" aria-current="page" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white">Home</a>
-       <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">About</a>
-       <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Skills</a>
-       <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Projects</a>
-       <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Contact</a>
+       <a href="#aboutMe" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">About</a>
+       <a href="#skills" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Skills</a>
+       <a href="#projects" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Projects</a>
+       <a href="#contact" class="rounded-md px-3 py-2 text-sm font-medium text-red-400   hover:bg-red-200 hover:text-gray-700">Contact</a>
   </el-disclosure>
 </nav>
 
@@ -72,27 +70,27 @@
 
 <section class=" hero-section bg-gray-300/10">
     <div class="grid  max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class=" hero-title-container  mr-auto place-self-center justify-center lg:col-span-7">
+        <div class=" hero-title-container ml-auto  mr-auto place-self-center justify-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-shadow-lg">Hi, I'm  <br> Gloria Maggioni</h1>
             <p class="max-w-2xl mt-4 mb-8 font-light text-gray-600 lg:mb-8 md:text-lg lg:text-2xl italic dark:text-gray-400 ">Front End Web Developer</p>
             <a href="#projects" class=" projectsBtn inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-600 border border-red-600 hover:bg-white hover:text-black hover:border hover:border-gray-400 focus:ring-4 focus:ring-primary-300 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                 Projects
             </a>
-              <a href="#" class=" contactMeBtn inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-red-600 border border-solid border-red-600 rounded-lg hover:bg-red-600 hover:text-white hover:border hover:border-red-600 focus:ring-4 focus:ring-gray-100   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+              <a href="#contact" class=" contactMeBtn inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-red-600 border border-solid border-red-600 rounded-lg hover:bg-red-600 hover:text-white hover:border hover:border-red-600 focus:ring-4 focus:ring-gray-100   transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                 Contact me
             </a> 
-          
-        </div>
-        <div class=" hero-image-container hidden lg:mt-0 lg:col-span-3 lg:flex ">
-            <img src="/images/heroSection-image.jpg" class="rounded-xl  ">
+         </div>
+        <div class=" hero-image-container  lg:col-span-4 lg:flex mt-8 lg:mt-0 flex justify-center items-center  ">
+            <img src="/images/heroSection-image.jpg" class="rounded-xl w-full max-w-xs h-auto object-cover ">
         </div>                
     </div>
 </section>
 
 <!-- ABOUT ME SECTION -->
 <section class="about-me ">
+    <a name="aboutMe" href="#aboutMe"></a>
+
   <h2 class="text-center mt-16 text-5xl font-extrabold ">About me</h2>
-  <!-- VEDERE SE SISTEMARE LO STILE DEL TESTO -->
   <p class="w-[60%] mt-4 text-center m-auto m-20 text-lg text-clip ">
     I create a modern,responsive and functional website for professionals, small businesses,
     who want a <strong>curted presence </strong>. 
@@ -115,7 +113,9 @@
 <!-- SKILLS SECTION -->
 
 <section class="skills-section ">
+  <a name="skills" href="#skills"></a>
   <h2 class=" text-center mt-16 text-5xl font-extrabold">Skills</h2>
+  
   <div class="skillsLogo-container w-[50%] h-fit m-auto grid grid-cols-7 gap-5  ">
 
      <div class="skill-logo "><img src="../images/htmllogo.jpg" alt="" class="object-contain"></div>
@@ -136,11 +136,8 @@
 <!-- PROJECTS SECTION -->
 
 <section class="projects-section ">
- 
+    <a name="projects" href="#projects"></a>
   <h2 class=" projects text-center mt-16 text-5xl font-extrabold mb-8">Projects</h2>
-  <!-- VEDERE SE SISTEMARE IL COLLEGAMENTO:INSERIRLO IN UN ALTRO MODO O TRAMITE JS -->
-   <a name="projects" href="#projects"></a>
-
    <div class="projectsCards-container">
 
     <!-- WONDERFUL BOOKS  -->
@@ -246,13 +243,14 @@
 <!-- CONTACT FORM SECTION -->
 
 <section class="contact-section w-full ">
-    <h2 class="text-center mt-16 mb-8 text-5xl font-extrabold ">Contact</h2>
-    <div class="contactContent-container w-full flex  bg-red-200/10">
-      <div class=" w-1/2 p-6 flex flex-col justify-center ">
-         <h4 class="font-extrabold tracking-tight leading-none md:text-3xl xl:text-5xl text-shadow-sm">Have you a project in mind? </h4>
+  <a name="contact" href="#contact"></a>
+  <h2 class="text-center mt-16 mb-8 text-5xl font-extrabold ">Contact</h2>
+  <div class="contactContent-container w-full flex flex-col lg:flex-row  bg-red-200/10">
+      <div class="w-full lg:w-1/2 p-6 flex flex-col justify-center text-center lg:text-left ">
+         <h4 class="font-extrabold tracking-tight leading-none text-3xl xl:text-5xl text-shadow-sm">Have you a project in mind? </h4>
          <p class=" mt-3 mb-6 font-light text-gray-600 text-base md:text-lg lg:text-2xl italic">Contact me! </p>
 
-         <div class="contact-icons  p-2 flex gap-5 items-center ">
+         <div class="contact-icons  p-2 flex justify-center lg:justify-start gap-5 items-center ">
             <a href="https://github.com/GloriaMaggioni" target="_blank">
               <i class="fab fa-github text-2xl"></i>
             </a>
@@ -263,28 +261,28 @@
               <i class="fab fa-instagram text-2xl"></i>
             </a>
          </div>
-    </div>
-    <div class="contact-form-container w-1/2 mt-6 ">
-       
-      <form id="form" action="" class="  w-[55%] max-w-md mx-auto m-4 p-4 border border-solid border-gray-300 rounded-md bg-white">
-        <div class="fullName flex flex-col justify-between md:flex-row items-center group mt-5 gap-5">
+      </div>
+    <div class="contact-form-container w-full lg:w-1/2 flex justify-center px-4 pb-10 ">
+         <form id="form" action="" class="  w-full max-w-md mt-6 p-6  border border-solid border-gray-300 rounded-md bg-white shadow-sm">
+        <div class="fullName flex flex-col  md:flex-row   mt-5 gap-5">
           <span class="w-full">
-            <input  id="name" name="name" placeholder="Name*" class=" w-full  border-0 border-b-2 border-gray-300" required>
+            <input  id="name" name="name" placeholder="Name*" class=" w-full  border-0 border-b-2 border-gray-300 focus:border-red-600 focus:outline-none" required>
           </span>
           <span class="w-full">
-            <input  id="surname" name="surname" placeholder="Surname*" class=" w-full  border-0 border-b-2 border-gray-300" required>
+            <input  id="surname" name="surname" placeholder="Surname*" class=" w-full  border-0 border-b-2 border-gray-300 focus:border-red-600 focus:outline-non" required>
           </span> 
         </div>
         <div class="email mt-9 mb-5">
-          <input id="email" type="email"  name="email" placeholder="Email*" class="w-full  border-0 border-b-2 border-gray-300" required>
+          <input id="email" type="email"  name="email" placeholder="Email*" class="w-full  border-0 border-b-2 border-gray-300 focus:border-red-600 focus:outline-none" required>
         </div>
          <div class="cellNumber mt-9 mb-5">
-          <input id="cellNumber" type="text"  name="cellNumber" placeholder="Cel Number (ex. (+39) 3516582125)" class="w-full  border-0 border-b-2 border-gray-300" required>
+          <input id="cellNumber" type="text"  name="cellNumber" placeholder="Cel Number (ex. (+39) 3516582125)" class="w-full  border-0 border-b-2 border-gray-300">
         </div>
         <div class="message h-40 mt-9  ">
-          <textarea  id="message" name="message"  placeholder="Write your message" class="w-full h-full   pl-2 border border-gray-300 rounded-md"></textarea>
+          <textarea  id="message" name="message"  placeholder="Write your message*" class="w-full h-40   pl-2 border border-gray-300 rounded-md focus:border-red-600 focus:outline-none"></textarea>
         </div>
-        <button type="submit"  id="formBtn" name="formBtn"  class="px-3 py-2 mt-8 text-base font-medium text-center text-white rounded-lg bg-red-600 border border-red-600 hover:bg-red-200 hover:text-black hover:cursor-pointer">Send</button>
+        <button type="submit"  id="formBtn" name="formBtn"  
+        class="px-4 py-2 w-full mt-8 text-base font-medium text-center text-white rounded-lg md:w-auto bg-red-600 border border-red-600 hover:bg-red-200 hover:text-black hover:cursor-pointer transition">Send</button>
       </form>
     </div>
     </div>
