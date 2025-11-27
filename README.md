@@ -78,11 +78,11 @@ The previous version served its purpose as an initial introduction to my work, b
 
 ## Live Deployment
 
-The portfolio is published through GitHub Pages.
+The portfolio is published through GitHub Pages and on Netlify.
 You can view the live version here:
 
-Github:[Project's page](https://gloriamaggioni.github.io/Portfolio_2025/);
-Netlify:
+Github: https://gloriamaggioni.github.io/Portfolio_2025/; <br>
+Netlify: https://mynewportfolio2025.netlify.app/
 
 ## Features
 
