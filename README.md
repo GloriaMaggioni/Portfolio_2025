@@ -15,6 +15,7 @@ The previous version served its purpose as an initial introduction to my work, b
 
 - Faster navigation
 
+
 - Better responsiveness
 
 - Consistent design system using TailwindCSS
@@ -22,7 +23,7 @@ The previous version served its purpose as an initial introduction to my work, b
 - Better separation between content and layout
 
 ## Screenshot
-[Screenshot of the homepage of my new portfolio(2025)](https://github.com/user-attachments/assets/474a857b-45a8-40a6-a54f-d909f49fff39" )
+<img width="3196" height="1662" alt="Portfolio 2025" src="https://github.com/user-attachments/assets/0505a3e0-00da-43c6-b354-e3b76570e444" />
 
 ## Before vs After
 
@@ -80,7 +81,8 @@ The previous version served its purpose as an initial introduction to my work, b
 The portfolio is published through GitHub Pages.
 You can view the live version here:
 
-[Project's page](https://gloriamaggioni.github.io/Portfolio_2025/)
+Github:[Project's page](https://gloriamaggioni.github.io/Portfolio_2025/);
+Netlify:
 
 ## Features
 
