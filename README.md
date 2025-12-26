@@ -23,7 +23,8 @@ The previous version served its purpose as an initial introduction to my work, b
 - Better separation between content and layout
 
 ## Screenshot
-<img width="3196" height="1662" alt="Portfolio 2025" src="https://github.com/user-attachments/assets/0505a3e0-00da-43c6-b354-e3b76570e444" />
+<img width="3190" height="1660" alt="Portfolio2025" src="https://github.com/user-attachments/assets/9df105ae-9f69-4260-ad00-0367cd538ef7" />
+
 
 ## Before vs After
 
